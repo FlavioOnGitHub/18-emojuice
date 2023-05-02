@@ -24,10 +24,78 @@ h1 {
 
 .title-container {
   background-color: rgba(255, 255, 255, 0.9);
-  padding: 35px 58px 30px 58px;
+  padding: 35px 58px 28px 58px;
+  margin-bottom: 35px;
 }
 
 .slogan {
   color: #57bb6b;
   font-family: Quattrocento;
+  font-size: 20px;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.cta-container {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+}
+
+.cta {
+  border-radius: 15px;
+  padding: 13px;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: Maven Pro;
+}
+
+.cta-dark {
+  background-color: #57bb6b;
+  color: white;
+}
+
+.cta-light {
+  background-color: white;
+  color: #57bb6b;
+}
+
+header .cta-dark {
+  margin-bottom: 18px;
+}
+
+h2 {
+  font-size: 26px;
+  font-family: Maven Pro;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 28px;
+}
+
+strong {
+  font-weight: 700;
+}
+
+.section-introduction {
+  background-color: white;
+  padding: 96px 68px;
+}
+
+.section-introduction p {
+  font-size: 16px;
+  font-family: Quattrocento;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 35px;
+}
+
+.section-introduction img {
+  width: 27px;
+}
+
+.section-introduction div {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+
 }
