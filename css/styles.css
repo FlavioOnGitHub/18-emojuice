@@ -9,6 +9,12 @@ img {
   max-width: 100%;
 }
 
+
+
+
+
+
+
 header {
   background-image: url(../img/fond-header.png);
   background-size: cover;
@@ -64,6 +70,14 @@ header .cta-dark {
   margin-bottom: 18px;
 }
 
+
+
+
+
+
+
+
+
 h2 {
   font-size: 26px;
   font-family: Maven Pro;
@@ -89,13 +103,124 @@ strong {
   margin-bottom: 35px;
 }
 
-.section-introduction img {
+.section-introduction img,
+.section-contact img 
+{
   width: 27px;
 }
 
-.section-introduction div {
+.icons-container {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
 
+}
+
+
+
+
+
+
+
+
+
+.section-produits {
+  background-color: #57bb6b;
+  padding: 45px 30px;
+}
+
+.section-produits h2 {
+  color: white;
+  margin-bottom: 35px;
+}
+
+.section-produits h3 {
+  margin-top: 0;
+  font-size: 30px;
+  font-family: Sriracha
+}
+
+.card {
+  border-radius: 22px;
+  padding: 40px 38px 30px;
+  margin-bottom: 45px;
+  box-shadow: 0px 0px 8px 0px rgb(76, 76, 76);
+}
+
+.card-banana {
+  background-color: #fff8d7;
+}
+
+.card-kiwi {
+  background-color: #c4f2ad;
+}
+
+.card-coffee {
+  background-color: #d3c6b2;
+}
+
+.card-strwberry {
+  background-color: #f7a4b4;
+}
+
+.card:last-of-type {
+  margin-bottom: 0;
+}
+
+.section-produits h3 {
+  margin-bottom: 0;
+}
+
+.section-produits p {
+  margin: 0 0 50px 0;
+  font-size: 16;
+  font-family: Quattrocento;
+  opacity: 0.5;
+}
+
+.card-bottom {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.section-produits a {
+  font-weight: 700;
+  font-family: Maven Pro;
+  font-size: 14px;
+  color: black;
+  align-self: flex-end;
+}
+
+.section-produits img {
+  width: 80px;
+}
+
+
+
+
+.section-contact {
+  background-color: white;
+  font-family: Maven Pro;
+  color: #57bb6b;
+  padding: 42px 68px;
+  text-align: center;
+}
+
+.section-contact h2 {
+  margin-bottom: 35px
+}
+
+.section-contact .cta {
+  margin-bottom: 14px;
+}
+
+.section-contact .cta:last-of-type {
+  margin-bottom: 75px;
+}
+
+.section-contact p {
+  font-size: 12px;
+  margin-top: 0;
+  margin-bottom: 40px;
 }
