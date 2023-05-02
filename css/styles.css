@@ -9,12 +9,6 @@ img {
   max-width: 100%;
 }
 
-
-
-
-
-
-
 header {
   background-image: url(../img/fond-header.png);
   background-size: cover;
@@ -70,14 +64,7 @@ header .cta-dark {
   margin-bottom: 18px;
 }
 
-
-
-
-
-
-
-
-
+/* start of the main section*/
 h2 {
   font-size: 26px;
   font-family: Maven Pro;
@@ -115,15 +102,9 @@ strong {
   justify-content: space-between;
 
 }
+/*end of the introduction section*/
 
-
-
-
-
-
-
-
-
+/*start of the product section*/
 .section-produits {
   background-color: #57bb6b;
   padding: 45px 30px;
