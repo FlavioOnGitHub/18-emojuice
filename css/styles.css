@@ -9,6 +9,7 @@ img {
   max-width: 100%;
 }
 
+/*start of the header*/
 header {
   background-image: url(../img/fond-header.png);
   background-size: cover;
@@ -20,6 +21,11 @@ header {
 h1 {
   margin: 0 auto 15px auto;
   width: 205px;
+}
+
+h1:hover {
+  scale: 1.03;
+  transition: 1s;
 }
 
 .title-container {
@@ -44,7 +50,7 @@ h1 {
 
 .cta {
   border-radius: 15px;
-  padding: 13px;
+  padding: 14px 18px;
   text-decoration: none;
   font-size: 20px;
   font-family: Maven Pro;
@@ -63,6 +69,7 @@ h1 {
 header .cta-dark {
   margin-bottom: 18px;
 }
+/*end of the header*/
 
 /* start of the main section*/
 h2 {
@@ -70,13 +77,14 @@ h2 {
   font-family: Maven Pro;
   text-align: center;
   margin-top: 0;
-  margin-bottom: 28px;
+  margin-bottom: 24px;
 }
 
 strong {
   font-weight: 700;
 }
 
+/*start of the introduction section*/
 .section-introduction {
   background-color: white;
   padding: 96px 68px;
@@ -116,16 +124,43 @@ strong {
 }
 
 .section-produits h3 {
+  margin-bottom: 2px;
   margin-top: 0;
   font-size: 30px;
-  font-family: Sriracha
+  font-family: Sriracha;
+  font-weight: 400;
+}
+
+.section-produits a {
+  font-weight: 700;
+  font-family: Maven Pro;
+  font-size: 14px;
+  color: black;
+  align-self: flex-end;
+}
+
+.section-produits img {
+  width: 80px;
+}
+
+.section-produits p {
+  margin: 0 0 40px 0;
+  font-size: 16;
+  font-family: Quattrocento;
+  opacity: 0.5;
 }
 
 .card {
   border-radius: 22px;
-  padding: 40px 38px 30px;
-  margin-bottom: 45px;
+  padding: 30px 38px 30px;
+  margin-bottom: 40px;
   box-shadow: 0px 0px 8px 0px rgb(76, 76, 76);
+}
+
+.card-bottom {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
 }
 
 .card-banana {
@@ -147,39 +182,9 @@ strong {
 .card:last-of-type {
   margin-bottom: 0;
 }
+/*end of the product section*/
 
-.section-produits h3 {
-  margin-bottom: 0;
-}
-
-.section-produits p {
-  margin: 0 0 50px 0;
-  font-size: 16;
-  font-family: Quattrocento;
-  opacity: 0.5;
-}
-
-.card-bottom {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-between;
-}
-
-.section-produits a {
-  font-weight: 700;
-  font-family: Maven Pro;
-  font-size: 14px;
-  color: black;
-  align-self: flex-end;
-}
-
-.section-produits img {
-  width: 80px;
-}
-
-
-
-
+/*start of the contact section*/
 .section-contact {
   background-color: white;
   font-family: Maven Pro;
@@ -205,3 +210,4 @@ strong {
   margin-top: 0;
   margin-bottom: 40px;
 }
+/*end of the contact section*/
